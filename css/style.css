@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'bootstrap-icons';
+    src: url('../fonts/bootstrap-icons.woff'), url('../fonts/bootstrap-icons.woff2');
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color:#0a020b;
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-d{
+    background-color: #010102;
+}
+.ics{
+    font-size: 13px;
+    cursor: pointer;
+}
+.mainb{
+    background-color: #666666;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+.partie1{
+    width: 90%;
+    margin: auto;
+}
+.partie2{
+    background: rgb(38,10,46);
+    background: linear-gradient(90deg, rgba(38,10,46,1) 0%, rgba(2,1,3,1) 50%, rgba(12,22,42,1) 100%);width: 90%;
+}
+.partie3{
+    width: 90%;
+    border: white solid 1px;
+    background-color: #1b1d21;
+    padding: 60px 30px;
+    margin-top: 60px;
+}
+.partie4{
+    width: 90%;
+    padding: 160px 0;
+    margin-top: 60px;
+}
+.partie5{
+    width: 90%;
+    margin-top: 60px;
+    margin: auto;
+}
+.big-title{
+    z-index: 99;
+}
+.big-title h2{
+    font-size: 120px;
+    font-weight: 800;
+}
+.t1{
+    color: #F0B38C;
+}
+.t2{
+    color: white;
+}
+.t3{
+    color: #AFD7B3;
+}
+.img1{
+    right: 370px;
+    top: 190px;
+}
+.img2{
+    left: 420px;
+    top: 200px;
+}
+.fs-8{
+    font-size: 19px;
+}
+.s-b{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 25px;
+    margin-right: 20px;
+}
+.s-btns{
+text-align: center;
+padding-top: 20px;
+}
+.s-b1{
+    background-color: #AFD7B3 ;
+
+}
+.s-b2{
+    background-color: whitesmoke ;
+
+}
+.fs-16{
+    font-size: 18px;
+}
+.fs-12{
+    font-size: 60px;
+    font-weight: 800;
+}
+.fs-13{
+    font-size: 44px;
+    font-weight: 800;
+}
+.fs-23{
+    font-size: 38px;
+    font-weight: 800;
+}
+.fs-20{
+    font-size: 44px;
+    font-weight: 800;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    border: 1px solid white;
+}
+
+.w-65{
+width: 60%;
+}
+.pt-10{
+    padding: 120px 0;
+}
+.partie6{
+    width: 90%;
+    background-color: #AFD7B3;
+    padding-bottom: 100px;
+
+}
+.w-80{
+    width: 80%;
+}
+.partie7{
+    width: 90%;
+    background-color: #ffffff;
+
+}
+.partie8{
+width: 85%;
+
+
+}
+.pb-50{
+    padding-bottom: 260px;
+
+}
+
+.greenb{
+    background-color: #ceeed1;
+    border-radius: 10px;
+}
+.greenb2{
+    background-color: #92e49a;
+    border-radius: 10px;
+    margin: auto;
+}
+.w-95{
+    width: 90%;
+    background-color: #ffffff;
+}
+.w-99{
+    width: 93%;
+}
+.fw-10{
+    font-weight: 500;
+    font-size: 18px;
+}
+.orangeb{
+    background-color: #F0B38C;
+    border-radius: 10px;
+}
+.orangeb2{
+    background-color: #ff8539;
+    border-radius: 10px;
+    margin: auto;
+}
+.pinkb{
+    background-color: #ffe1e1;
+    border-radius: 10px;
+}
+.pinkb2{
+    background-color: #ff9e9e;
+    border-radius: 10px;
+    margin: auto;
+}
+.purpleb{
+    background-color: #b9c2f1;
+    border-radius: 10px;
+}
+.purpleb2{
+    background-color: #8e9ef2;
+    border-radius: 10px;
+    margin: auto;
+}
+.bg-black{
+    background-color: #000000;
+}
+.partie10{
+    width: 95%;
+}
+
+
+.eli-img{
+    position:absolute;
+    left: 41%;
+    top: -30%;
+}
+.bg-orange{
+    background-color: #f0b38c;
+    padding: 120px 90px 30px 120px ;
+}
+.bg-transparent{
+    background-color: transparent;
+    border: none;
+}
+.fs-list-title{
+    font-size: 20px;
+    font-weight: 900;
+}
+.fs-list-item{
+    font-size: 18px;
+    font-weight: 500;
+}
+.border-footer{
+    border-bottom: black solid 1px;
+    padding-bottom: 30px;
+}
+.last-part{
+    text-align: left;
+    padding: 20px 0 0 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+@media screen and (max-width:700px) {
+    .view-mob{
+        flex-direction: column;
+    }
+    .partie4 img{
+        width: 80%;
+    }
+    .partie2 img{
+        display: none;
+    }
+    .eli-img{
+        position:absolute;
+        left: 25%;
+        top: -20%;
+    }
+    .last-part,.footer-links{
+        flex-direction: column;
+    }
+    .big-title h2{
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .fs-12{
+        font-size: 30px;
+    }
+    .fs-20{
+        font-size: 30px;
+    }
+    .partie8 img{
+        width: 80%;
+        height: 90%;
+    }
+    .partie5 img{
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+    }
+}
