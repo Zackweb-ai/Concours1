@@ -209,6 +209,9 @@ width: 85%;
 .px-40{
     padding: 0 1.5rem;
 }
+.mob-left{
+    padding: O 0 0 3rem;
+}
 
 
 .eli-img{
@@ -256,6 +259,9 @@ width: 85%;
     .partie2 img{
         display: none;
     }
+    .mob-left{
+        padding: 0;
+    }
     .eli-img{
         position:absolute;
         left: 25%;
@@ -297,4 +303,7 @@ width: 85%;
     .px-40{
             padding: 0 0;
         }
+    .mob-marg{
+        margin-bottom: 20px;
+    }
 }
