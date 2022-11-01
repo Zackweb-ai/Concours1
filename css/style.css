@@ -203,6 +203,12 @@ width: 85%;
 .partie10{
     width: 95%;
 }
+.px-30{
+    padding: 0 1rem;
+}
+.px-40{
+    padding: 0 1.5rem;
+}
 
 
 .eli-img{
@@ -237,6 +243,10 @@ width: 85%;
     font-size: 17px;
 }
 @media screen and (max-width:700px) {
+    .pb-50{
+        padding-bottom: 160px;
+    
+    }
     .view-mob{
         flex-direction: column;
     }
@@ -273,4 +283,18 @@ width: 85%;
         height: 100%;
         padding-top: 30px;
     }
+    .mob-menu{
+        flex-direction: column;
+    }
+    .mob-v{
+        margin: 0;
+        padding: 0 0;
+        }
+    
+    .px-30{
+            padding: 0 0;
+        }
+    .px-40{
+            padding: 0 0;
+        }
 }
